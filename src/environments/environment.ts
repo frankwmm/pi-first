@@ -4,8 +4,8 @@
 
 export const environment = {
   //url: 'http://192.168.88.76:8000/api/',
-  url: 'http://localhost:8000/api/',
-  production: false
+  url: "https://avance-matricula-back.herokuapp.com/api/",
+  production: true,
 };
 
 /*
