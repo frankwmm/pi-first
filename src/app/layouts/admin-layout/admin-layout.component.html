@@ -1,0 +1,15 @@
+<!-- Sidenav -->
+<ngx-header></ngx-header>
+
+<nb-layout >
+  
+  <app-navbar>asdf</app-navbar>
+  <nb-sidebar class="menu-sidebar" responsive>
+  <nb-menu [items]="menu"></nb-menu>
+  </nb-sidebar>
+  <nb-layout-column>
+      <ng-content select="router-outlet"></ng-content>
+      <router-outlet></router-outlet>
+    </nb-layout-column>
+   
+  </nb-layout>
